@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.shapes{
+    background-color: violet;
+    height: 100%;
+}
+.shapess{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.shapess > i{
+    margin: 5px;
+}
