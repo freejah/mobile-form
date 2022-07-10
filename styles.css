@@ -3,14 +3,35 @@ body{
     padding: 0;
 }
 .shapes{
-    background-color: violet;
+    background-color: 	#4b01d1;
     height: 100%;
 }
 .shapess{
     display: flex;
     justify-content: flex-end;
     gap: 5px;
+    color: #d7b7fd;
 }
 .shapess > i{
     margin: 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: #6202ee;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+.contacts{
+    display: flex;
+    gap: 2rem;
+}
+.search{
+    display: flex;
+    gap: 2rem;
+}
+.contacts, .search{
+    margin: 10px;
+    padding: 10px 0;
+    align-items: center;
 }
