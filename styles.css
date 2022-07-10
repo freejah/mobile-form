@@ -35,3 +35,10 @@ body{
     padding: 10px 0;
     align-items: center;
 }
+.grey > input,select{
+    background-color: rgb(232, 232, 232);
+    color: rgb(93, 93, 93);
+}
+.grey, .white{
+    color: rgb(93, 93, 93);
+}
