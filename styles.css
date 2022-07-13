@@ -35,10 +35,51 @@ body{
     padding: 10px 0;
     align-items: center;
 }
-.grey > input,select{
+.white > input,select{
+    height: 3rem;
+    border-radius: 5px;
+    padding: 0 .4rem;
+}
+.grey > input{
     background-color: rgb(232, 232, 232);
     color: rgb(93, 93, 93);
+    height: 3rem;
+    border-radius: 5px;
+    padding-left: .4rem;
+    border-width: 0 0 1px 0;
 }
-.grey, .white{
+#state{
+    background-color: rgb(232, 232, 232);
     color: rgb(93, 93, 93);
+    height: 3rem;
+    border-radius: 5px;
+}
+#this-form{
+    display: flex;
+    margin-top: 1.5rem;
+}
+label{
+    width: 10%;
+    display: inline-block;
+    margin: 0 16px;
+}
+.grey,.white{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.grey > i{
+    width: 12rem;
+}
+input{
+    width: 17rem;
+    height: 3rem;
+}
+#phone, #label, #state, #zip{
+    width: 7.5rem;
+    position: relative;
+    left: 0%;
+}
+#label, #zip{
+    margin-left: -3rem;
 }
